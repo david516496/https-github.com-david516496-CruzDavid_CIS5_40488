@@ -1,0 +1,42 @@
+/* 
+ * File:   main.cpp
+ * Author: Dr. Mark E. Lehr
+ * Created on Jan, 2017, 12:10 AM
+ * Purpose:  Stock Calculator
+ */
+
+//System Libraries Here
+#include <iostream>
+using namespace std;
+
+//User Libraries Here
+
+//Global Constants Only, No Global Variables
+//Like PI, e, Gravity, or conversions
+
+//Function Prototypes Here
+const int CNVACFT=43560
+
+//Program Execution Begins Here
+int main(int argc, char** argv) {
+    //Declare and Initialize Variables Here
+    int nAcres,NFt2
+  
+    
+    //Input or initialize values Here
+    cout<<"This is a conversion Program"<<endl;
+    cout<<"from Number of Acres to Feet Squared"<<endl;
+    cout<<"Input number of Acres"<<endl;
+    cin>>nAcres;
+    
+    //Process/Calculations Here
+    nFT2=nAcres*CNVACFT;
+    
+    //Output Located Here
+    cout<<"The Number of Acres Input= "<<endl;
+    cout<<"Equivalent to"<<nFT2<<"(ft^2)"<<endl; 
+
+    //Exit
+    return 0;
+}
+
